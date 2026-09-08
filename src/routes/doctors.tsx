@@ -3,6 +3,9 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import doctorAmara from "../assets/doctor-amara.jpg";
 import doctorLena from "../assets/doctor-lena.jpg";
 import doctorNoah from "../assets/doctor-noah.jpg";
+import doctorSarah from "../assets/doctor-sarah.jpg";
+import doctorPriya from "../assets/doctor-priya.jpg";
+import doctorJames from "../assets/doctor-james.jpg";
 
 export const Route = createFileRoute("/doctors")({
   head: () => ({
@@ -55,21 +58,21 @@ const doctors = [
     name: "Dr. Sarah Chen",
     role: "Paediatric Cardiologist",
     bio: "Dr. Chen provides cardiac screening, fetal echocardiography and ongoing care for children with heart conditions.",
-    image: doctorAmara,
+    image: doctorSarah,
     gradient: "from-rose/15 to-brand/10",
   },
   {
     name: "Dr. Priya Nair",
     role: "Gynaecological Oncologist",
     bio: "Dr. Nair leads our women's cancer screening programme and coordinates multidisciplinary oncology care.",
-    image: doctorLena,
+    image: doctorPriya,
     gradient: "from-accent/10 to-sage/20",
   },
   {
     name: "Dr. James Okonkwo",
     role: "Paediatric Surgeon",
     bio: "Dr. Okonkwo performs day-case and inpatient paediatric surgery with a focus on minimally invasive techniques.",
-    image: doctorNoah,
+    image: doctorJames,
     gradient: "from-brand/10 to-sage/20",
   },
 ];
